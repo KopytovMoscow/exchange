@@ -9,10 +9,6 @@ class Order(models.Model):
     pass
 
 
-class Skill(models.Model):
-    pass
-
-
 class Users(models.Model):
     # Пользовательская информация
     username = models.CharField(max_length=150, verbose_name='Короткое имя')  # Короткое имя пользвотаеля
