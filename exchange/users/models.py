@@ -1,4 +1,5 @@
 from django.db import models
+from Skill.models import Skill
 
 
 class Bid(models.Model):
