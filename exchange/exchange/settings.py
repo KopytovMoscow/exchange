@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'ExchangeApp',
     'Order',
     'Skill',
-    'users'
+    'users',
+    'Bid'
 ]
 
 MIDDLEWARE = [

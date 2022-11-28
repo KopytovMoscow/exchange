@@ -1,13 +1,7 @@
 from django.db import models
 from Skill.models import Skill
-
-
-class Bid(models.Model):
-    pass
-
-
-class Order(models.Model):
-    pass
+from Order.models import Order
+from Bid.models import Bid
 
 
 class Users(models.Model):
